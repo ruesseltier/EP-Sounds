@@ -24,6 +24,7 @@
 		090F4EFA17DFA6560049F526 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090F4EF917DFA6560049F526 /* AVFoundation.framework */; };
 		095827F517E11E0400A53C28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 095827F317E11E0400A53C28 /* background.png */; };
 		095827F617E11E0400A53C28 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 095827F417E11E0400A53C28 /* background@2x.png */; };
+		09794F4917EB8DD00053329A /* RUEAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09794F4817EB8DD00053329A /* RUEAboutViewController.m */; };
 		09A6256117EA31B600EFAE87 /* sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256017EA31B600EFAE87 /* sounds.plist */; };
 		09A6257317EA36E500EFAE87 /* attacke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256217EA36E500EFAE87 /* attacke.mp3 */; };
 		09A6257417EA36E500EFAE87 /* bettchen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256317EA36E500EFAE87 /* bettchen.mp3 */; };
@@ -78,6 +79,8 @@
 		090F4EF917DFA6560049F526 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		095827F317E11E0400A53C28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		095827F417E11E0400A53C28 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		09794F4717EB8DD00053329A /* RUEAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUEAboutViewController.h; sourceTree = "<group>"; };
+		09794F4817EB8DD00053329A /* RUEAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUEAboutViewController.m; sourceTree = "<group>"; };
 		09A6256017EA31B600EFAE87 /* sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sounds.plist; path = ../sounds.plist; sourceTree = "<group>"; };
 		09A6256217EA36E500EFAE87 /* attacke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = attacke.mp3; sourceTree = "<group>"; };
 		09A6256317EA36E500EFAE87 /* bettchen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bettchen.mp3; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				090F4E8B17DF9C5B0049F526 /* RUEAppDelegate.h */,
 				090F4E8C17DF9C5B0049F526 /* RUEAppDelegate.m */,
 				090F4E8E17DF9C5B0049F526 /* Main.storyboard */,
+				09794F4717EB8DD00053329A /* RUEAboutViewController.h */,
+				09794F4817EB8DD00053329A /* RUEAboutViewController.m */,
 				090F4E9117DF9C5B0049F526 /* RUEViewController.h */,
 				090F4E9217DF9C5B0049F526 /* RUEViewController.m */,
 				090F4E9417DF9C5B0049F526 /* Images.xcassets */,
@@ -358,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090F4E9317DF9C5B0049F526 /* RUEViewController.m in Sources */,
+				09794F4917EB8DD00053329A /* RUEAboutViewController.m in Sources */,
 				090F4E8917DF9C5B0049F526 /* main.m in Sources */,
 				090F4E8D17DF9C5B0049F526 /* RUEAppDelegate.m in Sources */,
 			);

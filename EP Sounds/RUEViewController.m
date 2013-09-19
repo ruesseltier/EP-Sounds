@@ -7,6 +7,7 @@
 //
 
 #import "RUEViewController.h"
+#import "RUEAboutViewController.h"
 
 @interface RUEViewController ()
 
@@ -42,6 +43,11 @@
     
 }
 
+
+- (IBAction)showAbout:(id)sender {
+    RUEAboutViewController *view = [self.storyboard instantiateViewControllerWithIdentifier:@"About"];
+    [self presentViewController:view animated:YES completion:NULL];
+}
 
 - (void) makeSound {
     NSUInteger index = arc4random_uniform(self.soundList.count);
