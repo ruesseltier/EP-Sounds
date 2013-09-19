@@ -30,8 +30,7 @@
 }
 
 - (IBAction)showMain:(id)sender {
-    RUEAboutViewController *view = [self.storyboard instantiateViewControllerWithIdentifier:@"Main"];
-    [self presentViewController:view animated:YES completion:NULL];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
