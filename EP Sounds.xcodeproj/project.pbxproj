@@ -21,10 +21,28 @@
 		090F4E9E17DF9C5B0049F526 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090F4E8017DF9C5B0049F526 /* UIKit.framework */; };
 		090F4EA617DF9C5B0049F526 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090F4EA417DF9C5B0049F526 /* InfoPlist.strings */; };
 		090F4EA817DF9C5B0049F526 /* EP_SoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F4EA717DF9C5B0049F526 /* EP_SoundsTests.m */; };
-		090F4EB517DF9D7D0049F526 /* bettchen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 090F4EB217DF9D7D0049F526 /* bettchen.m4a */; };
-		090F4EB717DF9D7D0049F526 /* wurst.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 090F4EB417DF9D7D0049F526 /* wurst.m4a */; };
 		090F4EFA17DFA6560049F526 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090F4EF917DFA6560049F526 /* AVFoundation.framework */; };
-		09E5178D17DFB66100124869 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E5178C17DFB66100124869 /* background.png */; };
+		095827F517E11E0400A53C28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 095827F317E11E0400A53C28 /* background.png */; };
+		095827F617E11E0400A53C28 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 095827F417E11E0400A53C28 /* background@2x.png */; };
+		09A6256117EA31B600EFAE87 /* sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256017EA31B600EFAE87 /* sounds.plist */; };
+		09A6257317EA36E500EFAE87 /* attacke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256217EA36E500EFAE87 /* attacke.mp3 */; };
+		09A6257417EA36E500EFAE87 /* bettchen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256317EA36E500EFAE87 /* bettchen.mp3 */; };
+		09A6257517EA36E500EFAE87 /* caioKannAuchTankstelle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256417EA36E500EFAE87 /* caioKannAuchTankstelle.mp3 */; };
+		09A6257617EA36E500EFAE87 /* doppelpass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256517EA36E500EFAE87 /* doppelpass.mp3 */; };
+		09A6257717EA36E500EFAE87 /* geheimÜbe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256617EA36E500EFAE87 /* geheimÜbe.mp3 */; };
+		09A6257817EA36E500EFAE87 /* inuiLicht.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256717EA36E500EFAE87 /* inuiLicht.mp3 */; };
+		09A6257917EA36E500EFAE87 /* langeLatte.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256817EA36E500EFAE87 /* langeLatte.mp3 */; };
+		09A6257A17EA36E500EFAE87 /* legende.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256917EA36E500EFAE87 /* legende.mp3 */; };
+		09A6257B17EA36E500EFAE87 /* lilapulli.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256A17EA36E500EFAE87 /* lilapulli.mp3 */; };
+		09A6257C17EA36E500EFAE87 /* marvinAttacke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256B17EA36E500EFAE87 /* marvinAttacke.mp3 */; };
+		09A6257D17EA36E500EFAE87 /* nurNulpen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256C17EA36E500EFAE87 /* nurNulpen.mp3 */; };
+		09A6257E17EA36E500EFAE87 /* ohneMeierKeinenDreier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256D17EA36E500EFAE87 /* ohneMeierKeinenDreier.mp3 */; };
+		09A6257F17EA36E500EFAE87 /* okaNikolovOkaNikolov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256E17EA36E500EFAE87 /* okaNikolovOkaNikolov.mp3 */; };
+		09A6258017EA36E500EFAE87 /* regler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256F17EA36E500EFAE87 /* regler.mp3 */; };
+		09A6258117EA36E500EFAE87 /* schießenKonntDerCaio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6257017EA36E500EFAE87 /* schießenKonntDerCaio.mp3 */; };
+		09A6258217EA36E500EFAE87 /* weiblicheHauptrolleSebastian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6257117EA36E500EFAE87 /* weiblicheHauptrolleSebastian.mp3 */; };
+		09A6258317EA36E500EFAE87 /* wurst.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6257217EA36E500EFAE87 /* wurst.mp3 */; };
+		09A6258517EA3F5400EFAE87 /* image-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A6258417EA3F5400EFAE87 /* image-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +75,28 @@
 		090F4EA317DF9C5B0049F526 /* EP SoundsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EP SoundsTests-Info.plist"; sourceTree = "<group>"; };
 		090F4EA517DF9C5B0049F526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		090F4EA717DF9C5B0049F526 /* EP_SoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EP_SoundsTests.m; sourceTree = "<group>"; };
-		090F4EB217DF9D7D0049F526 /* bettchen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bettchen.m4a; sourceTree = "<group>"; };
-		090F4EB417DF9D7D0049F526 /* wurst.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wurst.m4a; sourceTree = "<group>"; };
 		090F4EF917DFA6560049F526 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		09E5178C17DFB66100124869 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		095827F317E11E0400A53C28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		095827F417E11E0400A53C28 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		09A6256017EA31B600EFAE87 /* sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sounds.plist; path = ../sounds.plist; sourceTree = "<group>"; };
+		09A6256217EA36E500EFAE87 /* attacke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = attacke.mp3; sourceTree = "<group>"; };
+		09A6256317EA36E500EFAE87 /* bettchen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bettchen.mp3; sourceTree = "<group>"; };
+		09A6256417EA36E500EFAE87 /* caioKannAuchTankstelle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caioKannAuchTankstelle.mp3; sourceTree = "<group>"; };
+		09A6256517EA36E500EFAE87 /* doppelpass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doppelpass.mp3; sourceTree = "<group>"; };
+		09A6256617EA36E500EFAE87 /* geheimÜbe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "geheimÜbe.mp3"; sourceTree = "<group>"; };
+		09A6256717EA36E500EFAE87 /* inuiLicht.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inuiLicht.mp3; sourceTree = "<group>"; };
+		09A6256817EA36E500EFAE87 /* langeLatte.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = langeLatte.mp3; sourceTree = "<group>"; };
+		09A6256917EA36E500EFAE87 /* legende.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = legende.mp3; sourceTree = "<group>"; };
+		09A6256A17EA36E500EFAE87 /* lilapulli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lilapulli.mp3; sourceTree = "<group>"; };
+		09A6256B17EA36E500EFAE87 /* marvinAttacke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marvinAttacke.mp3; sourceTree = "<group>"; };
+		09A6256C17EA36E500EFAE87 /* nurNulpen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nurNulpen.mp3; sourceTree = "<group>"; };
+		09A6256D17EA36E500EFAE87 /* ohneMeierKeinenDreier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ohneMeierKeinenDreier.mp3; sourceTree = "<group>"; };
+		09A6256E17EA36E500EFAE87 /* okaNikolovOkaNikolov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = okaNikolovOkaNikolov.mp3; sourceTree = "<group>"; };
+		09A6256F17EA36E500EFAE87 /* regler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = regler.mp3; sourceTree = "<group>"; };
+		09A6257017EA36E500EFAE87 /* schießenKonntDerCaio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "schießenKonntDerCaio.mp3"; sourceTree = "<group>"; };
+		09A6257117EA36E500EFAE87 /* weiblicheHauptrolleSebastian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = weiblicheHauptrolleSebastian.mp3; sourceTree = "<group>"; };
+		09A6257217EA36E500EFAE87 /* wurst.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wurst.mp3; sourceTree = "<group>"; };
+		09A6258417EA3F5400EFAE87 /* image-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				09E5178917DFB51B00124869 /* Images */,
+				095827F317E11E0400A53C28 /* background.png */,
+				095827F417E11E0400A53C28 /* background@2x.png */,
+				09A6258417EA3F5400EFAE87 /* image-568h@2x.png */,
 				090F4EB117DF9D660049F526 /* Sounds */,
 				090F4E8B17DF9C5B0049F526 /* RUEAppDelegate.h */,
 				090F4E8C17DF9C5B0049F526 /* RUEAppDelegate.m */,
@@ -138,6 +177,7 @@
 		090F4E8317DF9C5B0049F526 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09A6256017EA31B600EFAE87 /* sounds.plist */,
 				090F4E8417DF9C5B0049F526 /* EP Sounds-Info.plist */,
 				090F4E8517DF9C5B0049F526 /* InfoPlist.strings */,
 				090F4E8817DF9C5B0049F526 /* main.m */,
@@ -167,8 +207,23 @@
 		090F4EB117DF9D660049F526 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				090F4EB217DF9D7D0049F526 /* bettchen.m4a */,
-				090F4EB417DF9D7D0049F526 /* wurst.m4a */,
+				09A6256217EA36E500EFAE87 /* attacke.mp3 */,
+				09A6256317EA36E500EFAE87 /* bettchen.mp3 */,
+				09A6256417EA36E500EFAE87 /* caioKannAuchTankstelle.mp3 */,
+				09A6256517EA36E500EFAE87 /* doppelpass.mp3 */,
+				09A6256617EA36E500EFAE87 /* geheimÜbe.mp3 */,
+				09A6256717EA36E500EFAE87 /* inuiLicht.mp3 */,
+				09A6256817EA36E500EFAE87 /* langeLatte.mp3 */,
+				09A6256917EA36E500EFAE87 /* legende.mp3 */,
+				09A6256A17EA36E500EFAE87 /* lilapulli.mp3 */,
+				09A6256B17EA36E500EFAE87 /* marvinAttacke.mp3 */,
+				09A6256C17EA36E500EFAE87 /* nurNulpen.mp3 */,
+				09A6256D17EA36E500EFAE87 /* ohneMeierKeinenDreier.mp3 */,
+				09A6256E17EA36E500EFAE87 /* okaNikolovOkaNikolov.mp3 */,
+				09A6256F17EA36E500EFAE87 /* regler.mp3 */,
+				09A6257017EA36E500EFAE87 /* schießenKonntDerCaio.mp3 */,
+				09A6257117EA36E500EFAE87 /* weiblicheHauptrolleSebastian.mp3 */,
+				09A6257217EA36E500EFAE87 /* wurst.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -176,7 +231,6 @@
 		09E5178917DFB51B00124869 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				09E5178C17DFB66100124869 /* background.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -229,6 +283,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "René Kurfürst";
 				TargetAttributes = {
+					090F4E7817DF9C5B0049F526 = {
+						DevelopmentTeam = YSMDB33MU3;
+					};
 					090F4E9917DF9C5B0049F526 = {
 						TestTargetID = 090F4E7817DF9C5B0049F526;
 					};
@@ -258,12 +315,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A6258217EA36E500EFAE87 /* weiblicheHauptrolleSebastian.mp3 in Resources */,
+				09A6258517EA3F5400EFAE87 /* image-568h@2x.png in Resources */,
 				090F4E9517DF9C5B0049F526 /* Images.xcassets in Resources */,
-				09E5178D17DFB66100124869 /* background.png in Resources */,
-				090F4EB517DF9D7D0049F526 /* bettchen.m4a in Resources */,
+				095827F517E11E0400A53C28 /* background.png in Resources */,
+				09A6257717EA36E500EFAE87 /* geheimÜbe.mp3 in Resources */,
+				09A6257517EA36E500EFAE87 /* caioKannAuchTankstelle.mp3 in Resources */,
+				09A6258117EA36E500EFAE87 /* schießenKonntDerCaio.mp3 in Resources */,
+				09A6257B17EA36E500EFAE87 /* lilapulli.mp3 in Resources */,
+				09A6257817EA36E500EFAE87 /* inuiLicht.mp3 in Resources */,
+				09A6257A17EA36E500EFAE87 /* legende.mp3 in Resources */,
+				09A6257917EA36E500EFAE87 /* langeLatte.mp3 in Resources */,
+				09A6257317EA36E500EFAE87 /* attacke.mp3 in Resources */,
+				09A6258017EA36E500EFAE87 /* regler.mp3 in Resources */,
+				09A6257C17EA36E500EFAE87 /* marvinAttacke.mp3 in Resources */,
+				09A6256117EA31B600EFAE87 /* sounds.plist in Resources */,
+				09A6257D17EA36E500EFAE87 /* nurNulpen.mp3 in Resources */,
+				09A6257E17EA36E500EFAE87 /* ohneMeierKeinenDreier.mp3 in Resources */,
+				095827F617E11E0400A53C28 /* background@2x.png in Resources */,
 				090F4E8717DF9C5B0049F526 /* InfoPlist.strings in Resources */,
-				090F4EB717DF9D7D0049F526 /* wurst.m4a in Resources */,
+				09A6257F17EA36E500EFAE87 /* okaNikolovOkaNikolov.mp3 in Resources */,
+				09A6258317EA36E500EFAE87 /* wurst.mp3 in Resources */,
+				09A6257617EA36E500EFAE87 /* doppelpass.mp3 in Resources */,
 				090F4E9017DF9C5B0049F526 /* Main.storyboard in Resources */,
+				09A6257417EA36E500EFAE87 /* bettchen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +480,9 @@
 		090F4EAC17DF9C5B0049F526 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EP Sounds/EP Sounds-Prefix.pch";
 				INFOPLIST_FILE = "EP Sounds/EP Sounds-Info.plist";
@@ -419,8 +495,9 @@
 		090F4EAD17DF9C5B0049F526 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EP Sounds/EP Sounds-Prefix.pch";
 				INFOPLIST_FILE = "EP Sounds/EP Sounds-Info.plist";

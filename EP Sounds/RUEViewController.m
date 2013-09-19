@@ -30,7 +30,9 @@
     
     //self.soundArray = [[NSArray alloc] initWithObjects:@"bettchen", @"wurst", nil];
     self.fileLabel.text = nil;
-    self.soundList = [[NSDictionary alloc] initWithObjectsAndKeys: @"Alles klärchen Bärchen, ich muss jetzt ins Bettchen. Tschüsschen", @"bettchen", @"Ich will Sie nicht weiter bei ihrer Wurst stören", @"wurst", nil];
+    //self.soundList = [[NSDictionary alloc] initWithObjectsAndKeys: @"Alles klärchen Bärchen, ich muss jetzt ins Bettchen. Tschüsschen", @"bettchen", @"Ich will Sie nicht weiter bei ihrer Wurst stören", @"wurst", nil];
+    NSString *fileList = [[NSBundle mainBundle] pathForResource:@"sounds" ofType:@"plist"];
+    self.soundList = [[NSDictionary alloc] initWithContentsOfFile:fileList];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,13 +42,14 @@
     
 }
 
+
 - (void) makeSound {
     NSUInteger index = arc4random_uniform(self.soundList.count);
     NSArray *keys = [soundList allKeys];
     NSString *key = [keys objectAtIndex:index];
     self.fileLabel.text = [self.soundList objectForKey:key];
     //NSString *fileName = [self.soundArray objectAtIndex:index];
-    NSString *randomSound = [[NSBundle mainBundle] pathForResource:key ofType:@".m4a"];
+    NSString *randomSound = [[NSBundle mainBundle] pathForResource:key ofType:@".mp3"];
     
     player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:randomSound] error:NULL];
     [player play];
@@ -84,6 +87,7 @@
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     [self makeSound];
 }
+
 
 
 @end
