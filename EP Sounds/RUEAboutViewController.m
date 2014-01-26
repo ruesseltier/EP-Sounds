@@ -33,10 +33,14 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)website:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.eintracht-podcast.de"]];
+}
 @end

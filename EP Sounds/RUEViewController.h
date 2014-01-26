@@ -16,7 +16,6 @@
 @property (strong, nonatomic) AVAudioPlayer *player;
 @property (strong, nonatomic) NSDictionary *soundList;
 
-- (IBAction)showAbout:(id)sender;
 - (void) makeSound;
 
 @end

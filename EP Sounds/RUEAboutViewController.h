@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface RUEAboutViewController : UIViewController
+- (IBAction)website:(id)sender;
 
-- (IBAction)showMain:(id)sender;
+
+//- (IBAction)unwindToMain:(UIStoryboardSegue *)unwindSegue;
+//- (IBAction)showMain:(id)sender;
 
 @end

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -10,35 +10,48 @@
             <objects>
                 <viewController storyboardIdentifier="Main" id="vXZ-lx-hvc" customClass="RUEViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="T5p-Xa-fg0"/>
-                        <viewControllerLayoutGuide type="bottom" id="PpX-Cn-nd6"/>
+                        <viewControllerLayoutGuide type="top" id="6LT-ei-3tF"/>
+                        <viewControllerLayoutGuide type="bottom" id="hgx-f1-2jw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-GP-97l">
-                                <rect key="frame" x="20" y="250" width="280" height="160"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="G9X-GP-97l">
+                                <rect key="frame" x="20" y="245" width="280" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
-                                <string key="text">Hier steht irgendwann mal einer sehr langer text oder auch ein kurzer. Oder ein ganz ganz kurzer oder doch ein sehr sehr langer.</string>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="KkD-p0-jM7"/>
+                                    <constraint firstAttribute="height" constant="160" id="msc-Bi-xjw"/>
+                                </constraints>
+                                <string key="text">Was man aber auch dazu sagen muss, also äh Herr Bruchagen: Wer auch immer Ihnen morgens die Kleidung raus legt, den lilanen Puli, nicht mehr nehmen.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K39-pv-J4j">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K39-pv-J4j">
                                 <rect key="frame" x="278" y="438" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="t6T-Ah-PN6" kind="modal" id="WqL-eD-iu9"/>
+                                    <segue destination="t6T-Ah-PN6" kind="modal" identifier="unwindToMain" id="WqL-eD-iu9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="G9X-GP-97l" secondAttribute="trailing" constant="20" id="3EK-5l-dNV"/>
+                            <constraint firstAttribute="trailing" secondItem="K39-pv-J4j" secondAttribute="trailing" constant="20" id="X4E-WF-u4V"/>
+                            <constraint firstItem="G9X-GP-97l" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="bp4-FN-lLZ"/>
+                            <constraint firstItem="G9X-GP-97l" firstAttribute="top" secondItem="6LT-ei-3tF" secondAttribute="bottom" constant="225" id="lxJ-8G-dfc"/>
+                            <constraint firstItem="hgx-f1-2jw" firstAttribute="top" secondItem="K39-pv-J4j" secondAttribute="bottom" constant="20" id="x2D-A7-9pw"/>
+                            <constraint firstAttribute="trailing" secondItem="G9X-GP-97l" secondAttribute="trailing" constant="20" id="z7H-07-x5d"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oI5-cD-KNo"/>
                     <connections>
@@ -54,8 +67,8 @@
             <objects>
                 <viewController storyboardIdentifier="About" id="t6T-Ah-PN6" customClass="RUEAboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="eWE-id-qZ4"/>
-                        <viewControllerLayoutGuide type="bottom" id="kQm-df-gft"/>
+                        <viewControllerLayoutGuide type="top" id="9xe-qi-hTB"/>
+                        <viewControllerLayoutGuide type="bottom" id="AYh-Ew-MqV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TR5-W0-gqf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -70,6 +83,7 @@
                                 </state>
                                 <connections>
                                     <action selector="showMain:" destination="t6T-Ah-PN6" eventType="touchUpInside" id="VZu-p6-Gel"/>
+                                    <segue destination="F7R-Fd-LvS" kind="unwind" unwindAction="unwindToMain:" id="j6z-yP-bcy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eintracht Frankfurt Podcast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHF-V1-e98">
@@ -85,17 +99,29 @@
                                 <string key="text">Der Eintracht Frankfurt Podcast ist etwas, was wir nun seit Anfang 2010 betreiben. Wir das ist eine Gruppe von Fans die aus liebe zum Verein einen privaten Podcast auf die Beine gestellt haben. 
 Was in dieser App zu hören ist, sind Soundschnipsel aus unseren Folgen. Quasi als Best Of.
 
-Mehr Infos über uns gibt es unter http://www.eintracht-podcast.de
+Mehr Infos über uns gibt es unter
+
 
 Wir freuen uns über einen Besuch.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xf-gY-zdB">
+                                <rect key="frame" x="20" y="337" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="http://www.eintracht-podcast.de">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="website:" destination="t6T-Ah-PN6" eventType="touchUpInside" id="tQB-tC-0e1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSi-iJ-mRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="F7R-Fd-LvS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="719" y="449"/>
         </scene>

@@ -14,6 +14,9 @@
 @end
 
 @implementation RUEViewController
+{
+    BOOL mainView;
+}
 
 @synthesize fileLabel;
 @synthesize soundArray;
@@ -25,13 +28,18 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    UIImage *image = [UIImage imageNamed:@"background.png"];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-    [self.view insertSubview:imageView atIndex:0];
     
-    //self.soundArray = [[NSArray alloc] initWithObjects:@"bettchen", @"wurst", nil];
+    if (IS_IPHONE5) {
+        UIImage *image = [UIImage imageNamed:@"background-568.png"];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+        [self.view insertSubview:imageView atIndex:0];
+    } else {
+        UIImage *image = [UIImage imageNamed:@"background.png"];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+        [self.view insertSubview:imageView atIndex:0];
+    }
+    
     self.fileLabel.text = nil;
-    //self.soundList = [[NSDictionary alloc] initWithObjectsAndKeys: @"Alles klärchen Bärchen, ich muss jetzt ins Bettchen. Tschüsschen", @"bettchen", @"Ich will Sie nicht weiter bei ihrer Wurst stören", @"wurst", nil];
     NSString *fileList = [[NSBundle mainBundle] pathForResource:@"sounds" ofType:@"plist"];
     self.soundList = [[NSDictionary alloc] initWithContentsOfFile:fileList];
 }
@@ -44,12 +52,9 @@
 }
 
 
-//- (IBAction)showAbout:(id)sender {
-//    RUEAboutViewController *view = [self.storyboard instantiateViewControllerWithIdentifier:@"About"];
-//    [self presentViewController:view animated:YES completion:NULL];
-//}
 
 - (void) makeSound {
+    
     NSUInteger index = arc4random_uniform(self.soundList.count);
     NSArray *keys = [soundList allKeys];
     NSString *key = [keys objectAtIndex:index];
@@ -78,7 +83,10 @@
 
 - (void) motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
     if (motion == UIEventSubtypeMotionShake) {
-        [self makeSound];
+        if (mainView == YES) {
+            [self makeSound];
+        }
+        
     }
     
 }
@@ -91,9 +99,24 @@
 }
 
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-    [self makeSound];
+    if (mainView == YES) {
+        [self makeSound];
+    }
+    
+    
+}
+    
+-(void)viewWillAppear:(BOOL)animated {
+    if (TRUE) {
+        mainView = YES;
+    }
 }
 
+-(void)viewWillDisappear:(BOOL)animated {
+    if (TRUE) {
+        mainView = NO;
+    }
+}
 
 
 @end
