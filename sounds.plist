@@ -3,46 +3,235 @@
 <plist version="1.0">
 <dict>
 	<key>attacke</key>
-	<string>Ah ja dann. Attacke!</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>attacke</string>
+		<key>text</key>
+		<string>Ah ja dann. Attacke!</string>
+	</dict>
 	<key>bettchen</key>
-	<string>Alles klärchen Bärchen, ich muss jetzt ins Bettchen. Tschüsschen.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>bettchen</string>
+		<key>text</key>
+		<string>Alles klärchen Bärchen, ich muss jetzt ins Bettchen. Tschüsschen.</string>
+	</dict>
 	<key>caioKannAuchTankstelle</key>
-	<string>Caio kann auch Tankstelle.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>caioKannAuchTankstelle</string>
+		<key>text</key>
+		<string>Caio kann auch Tankstelle.</string>
+	</dict>
 	<key>doppelpass</key>
-	<string>Das du Doppelpass guggst, ja. JA, gugg ich. Immer noch.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>René</string>
+		<key>mp3</key>
+		<string>doppelpass</string>
+		<key>text</key>
+		<string>Das du Doppelpass guggst, ja. JA, gugg ich. Immer noch.</string>
+	</dict>
 	<key>geheimÜbe</key>
-	<string>Ich muss ehrlich sagen, dass ich ab und zu mal geheim übe.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>geheimÜbe</string>
+		<key>text</key>
+		<string>Ich muss ehrlich sagen, dass ich ab und zu mal geheim übe.</string>
+	</dict>
 	<key>inuiLicht</key>
-	<string>Und wenn bei Inui Licht ist, dann ist bei Inui unglaublich viel Licht, ja.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Marvin</string>
+		<key>mp3</key>
+		<string>inuiLicht</string>
+		<key>text</key>
+		<string>Und wenn bei Inui Licht ist, dann ist bei Inui unglaublich viel Licht, ja.</string>
+	</dict>
 	<key>langeLatte</key>
-	<string>Also du hast jetzt schon wieder eine lange Latte.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Marvin</string>
+		<key>mp3</key>
+		<string>langeLatte</string>
+		<key>text</key>
+		<string>Also du hast jetzt schon wieder eine lange Latte.</string>
+	</dict>
 	<key>legende</key>
-	<string>In einem Spiel, kann aus normalen Spielern eine Legende werden.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Marvin</string>
+		<key>mp3</key>
+		<string>legende</string>
+		<key>text</key>
+		<string>In einem Spiel, kann aus normalen Spielern eine Legende werden.</string>
+	</dict>
 	<key>lilapulli</key>
-	<string>Was man aber auch dazu sagen muss, also äh Herr Bruchagen: Wer auch immer Ihnen morgens die Kleidung raus legt, den lilanen Puli, nicht mehr nehmen.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>lilapulli</string>
+		<key>text</key>
+		<string>Was man aber auch dazu sagen muss, also äh Herr Bruchagen: Wer auch immer Ihnen morgens die Kleidung raus legt, den lilanen Puli, nicht mehr nehmen.</string>
+	</dict>
 	<key>marvinAttacke</key>
-	<string>Ja wenn dann einer so freundlich wäre den Einsatz geben zu wollen, könnten wir anfangen, nicht wahr. Attaaacke</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Marvin</string>
+		<key>mp3</key>
+		<string>marvinAttacke</string>
+		<key>text</key>
+		<string>Ja wenn dann einer so freundlich wäre den Einsatz geben zu wollen, könnten wir anfangen, nicht wahr. Attaaacke</string>
+	</dict>
 	<key>nurNulpen</key>
-	<string>Ja dat einzige wat man ja immer nur sagen kann, wir haben echt Glück, das um uns herum wirklich auch nur Nulpen sind.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>nurNulpen</string>
+		<key>text</key>
+		<string>Ja dat einzige wat man ja immer nur sagen kann, wir haben echt Glück, das um uns herum wirklich auch nur Nulpen sind.</string>
+	</dict>
 	<key>ohneMeierKeinenDreier</key>
-	<string>Ohne Meier keinen Dreier.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>ohneMeierKeinenDreier</string>
+		<key>text</key>
+		<string>Ohne Meier keinen Dreier.</string>
+	</dict>
 	<key>okaNikolovOkaNikolov</key>
-	<string>Oka Nikolov. Oka Nikolov.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Sebastian</string>
+		<key>mp3</key>
+		<string>okaNikolovOkaNikolov</string>
+		<key>text</key>
+		<string>Oka Nikolov. Oka Nikolov.</string>
+	</dict>
 	<key>regler</key>
-	<string>Ich hab hier so ein Gerät, das sind Regler dran, damit kann man regeln. Deswegen heißt das ja Regler, weil man damit was regeln kann.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>René</string>
+		<key>mp3</key>
+		<string>regler</string>
+		<key>text</key>
+		<string>Ich hab hier so ein Gerät, das sind Regler dran, damit kann man regeln. Deswegen heißt das ja Regler, weil man damit was regeln kann.</string>
+	</dict>
 	<key>schießenKonntDerCaio</key>
-	<string>Oh schießen konnt der Caio, der konnt nur net laufen.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>schießenKonntDerCaio</string>
+		<key>text</key>
+		<string>Oh schießen konnt der Caio, der konnt nur net laufen.</string>
+	</dict>
 	<key>weiblicheHauptrolleSebastian</key>
-	<string>Und in der weiblichen Hauptrolle heute, der Sebastian. Hallooo.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Sebastian</string>
+		<key>mp3</key>
+		<string>weiblicheHauptrolleSebastian</string>
+		<key>text</key>
+		<string>Und in der weiblichen Hauptrolle heute, der Sebastian. Hallooo.</string>
+	</dict>
 	<key>wurst</key>
-	<string>Ich will Sie nicht weiter bei Ihrer Wurst stören.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>wurst</string>
+		<key>text</key>
+		<string>Ich will Sie nicht weiter bei Ihrer Wurst stören.</string>
+	</dict>
 	<key>AufbauGegnerBayern</key>
-	<string>Genau. Schauen wir nach vorne. Aufbaugegner Bayern kommt.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>René</string>
+		<key>mp3</key>
+		<string>AufbauGegnerBayern</string>
+		<key>text</key>
+		<string>Genau. Schauen wir nach vorne. Aufbaugegner Bayern kommt.</string>
+	</dict>
 	<key>heruntergelassenenHosen</key>
-	<string>Da standen sie die Bayern, mit herunter gelassenen Hosen.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>heruntergelassenenHosen</string>
+		<key>text</key>
+		<string>Da standen sie die Bayern, mit herunter gelassenen Hosen.</string>
+	</dict>
 	<key>KlasseStürmerAltintop</key>
-	<string>Wir haben jetzt nen Klasse Stürmer mit Halil Altintop.</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Alex</string>
+		<key>mp3</key>
+		<string>KlasseStürmeAltintop</string>
+		<key>text</key>
+		<string>Wir haben jetzt nen Klasse Stürmer mit Halil Altintop.</string>
+	</dict>
 	<key>siemagdenAlex</key>
-	<string>„Sie mag den Alex, Sie mag den Alex“</string>
+	<dict>
+		<key>episode</key>
+		<string>???</string>
+		<key>person</key>
+		<string>Marvin</string>
+		<key>mp3</key>
+		<string>siemagdenAlex</string>
+		<key>text</key>
+		<string>„Sie mag den Alex, Sie mag den Alex“</string>
+	</dict>
 </dict>
 </plist>

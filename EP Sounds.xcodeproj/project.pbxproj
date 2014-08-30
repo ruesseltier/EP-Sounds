@@ -22,9 +22,6 @@
 		090F4EA617DF9C5B0049F526 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090F4EA417DF9C5B0049F526 /* InfoPlist.strings */; };
 		090F4EA817DF9C5B0049F526 /* EP_SoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F4EA717DF9C5B0049F526 /* EP_SoundsTests.m */; };
 		090F4EFA17DFA6560049F526 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090F4EF917DFA6560049F526 /* AVFoundation.framework */; };
-		0916FBD817F8B1AC00E41067 /* background-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0916FBD717F8B1AC00E41067 /* background-568@2x.png */; };
-		095827F517E11E0400A53C28 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 095827F317E11E0400A53C28 /* background.png */; };
-		095827F617E11E0400A53C28 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 095827F417E11E0400A53C28 /* background@2x.png */; };
 		09794F4917EB8DD00053329A /* RUEAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09794F4817EB8DD00053329A /* RUEAboutViewController.m */; };
 		09A6256117EA31B600EFAE87 /* sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256017EA31B600EFAE87 /* sounds.plist */; };
 		09A6257317EA36E500EFAE87 /* attacke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A6256217EA36E500EFAE87 /* attacke.mp3 */; };
@@ -48,6 +45,9 @@
 		357424DA189450D100AF6B87 /* KlasseStürmerAltintop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357424D6189450D100AF6B87 /* KlasseStürmerAltintop.mp3 */; };
 		357424DB189450D100AF6B87 /* siemagdenAlex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357424D7189450D100AF6B87 /* siemagdenAlex.mp3 */; };
 		357424DC189450D100AF6B87 /* heruntergelassenenHosen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 357424D8189450D100AF6B87 /* heruntergelassenenHosen.mp3 */; };
+		358EF8E719B1CE4600A18665 /* background-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 358EF8E419B1CE4600A18665 /* background-568@2x.png */; };
+		358EF8E819B1CE4600A18665 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 358EF8E519B1CE4600A18665 /* background.png */; };
+		358EF8E919B1CE4600A18665 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 358EF8E619B1CE4600A18665 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,9 +81,6 @@
 		090F4EA517DF9C5B0049F526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		090F4EA717DF9C5B0049F526 /* EP_SoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EP_SoundsTests.m; sourceTree = "<group>"; };
 		090F4EF917DFA6560049F526 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		0916FBD717F8B1AC00E41067 /* background-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568@2x.png"; sourceTree = "<group>"; };
-		095827F317E11E0400A53C28 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		095827F417E11E0400A53C28 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		09794F4717EB8DD00053329A /* RUEAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUEAboutViewController.h; sourceTree = "<group>"; };
 		09794F4817EB8DD00053329A /* RUEAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUEAboutViewController.m; sourceTree = "<group>"; };
 		09A6256017EA31B600EFAE87 /* sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sounds.plist; path = ../sounds.plist; sourceTree = "<group>"; };
@@ -108,6 +105,9 @@
 		357424D6189450D100AF6B87 /* KlasseStürmerAltintop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "KlasseStürmerAltintop.mp3"; sourceTree = "<group>"; };
 		357424D7189450D100AF6B87 /* siemagdenAlex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siemagdenAlex.mp3; sourceTree = "<group>"; };
 		357424D8189450D100AF6B87 /* heruntergelassenenHosen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heruntergelassenenHosen.mp3; sourceTree = "<group>"; };
+		358EF8E419B1CE4600A18665 /* background-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-568@2x.png"; sourceTree = "<group>"; };
+		358EF8E519B1CE4600A18665 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		358EF8E619B1CE4600A18665 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,9 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				09E5178917DFB51B00124869 /* Images */,
-				095827F317E11E0400A53C28 /* background.png */,
-				095827F417E11E0400A53C28 /* background@2x.png */,
-				0916FBD717F8B1AC00E41067 /* background-568@2x.png */,
 				090F4EB117DF9D660049F526 /* Sounds */,
 				090F4E8B17DF9C5B0049F526 /* RUEAppDelegate.h */,
 				090F4E8C17DF9C5B0049F526 /* RUEAppDelegate.m */,
@@ -248,6 +245,9 @@
 		09E5178917DFB51B00124869 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				358EF8E419B1CE4600A18665 /* background-568@2x.png */,
+				358EF8E519B1CE4600A18665 /* background.png */,
+				358EF8E619B1CE4600A18665 /* background@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -334,14 +334,15 @@
 			files = (
 				357424DC189450D100AF6B87 /* heruntergelassenenHosen.mp3 in Resources */,
 				09A6258217EA36E500EFAE87 /* weiblicheHauptrolleSebastian.mp3 in Resources */,
+				358EF8E719B1CE4600A18665 /* background-568@2x.png in Resources */,
 				090F4E9517DF9C5B0049F526 /* Images.xcassets in Resources */,
 				357424DB189450D100AF6B87 /* siemagdenAlex.mp3 in Resources */,
-				095827F517E11E0400A53C28 /* background.png in Resources */,
 				09A6257717EA36E500EFAE87 /* geheimÜbe.mp3 in Resources */,
 				09A6257517EA36E500EFAE87 /* caioKannAuchTankstelle.mp3 in Resources */,
 				09A6258117EA36E500EFAE87 /* schießenKonntDerCaio.mp3 in Resources */,
 				09A6257B17EA36E500EFAE87 /* lilapulli.mp3 in Resources */,
 				09A6257817EA36E500EFAE87 /* inuiLicht.mp3 in Resources */,
+				358EF8E919B1CE4600A18665 /* background@2x.png in Resources */,
 				09A6257A17EA36E500EFAE87 /* legende.mp3 in Resources */,
 				09A6257917EA36E500EFAE87 /* langeLatte.mp3 in Resources */,
 				09A6257317EA36E500EFAE87 /* attacke.mp3 in Resources */,
@@ -351,14 +352,13 @@
 				09A6257D17EA36E500EFAE87 /* nurNulpen.mp3 in Resources */,
 				09A6257E17EA36E500EFAE87 /* ohneMeierKeinenDreier.mp3 in Resources */,
 				357424D9189450D100AF6B87 /* AufbauGegnerBayern.mp3 in Resources */,
-				095827F617E11E0400A53C28 /* background@2x.png in Resources */,
 				090F4E8717DF9C5B0049F526 /* InfoPlist.strings in Resources */,
-				0916FBD817F8B1AC00E41067 /* background-568@2x.png in Resources */,
 				09A6257F17EA36E500EFAE87 /* okaNikolovOkaNikolov.mp3 in Resources */,
 				09A6258317EA36E500EFAE87 /* wurst.mp3 in Resources */,
 				357424DA189450D100AF6B87 /* KlasseStürmerAltintop.mp3 in Resources */,
 				09A6257617EA36E500EFAE87 /* doppelpass.mp3 in Resources */,
 				090F4E9017DF9C5B0049F526 /* Main.storyboard in Resources */,
+				358EF8E819B1CE4600A18665 /* background.png in Resources */,
 				09A6257417EA36E500EFAE87 /* bettchen.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

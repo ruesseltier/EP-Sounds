@@ -14,7 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *fileLabel;
 @property (strong, nonatomic) NSArray *soundArray;
 @property (strong, nonatomic) AVAudioPlayer *player;
-@property (strong, nonatomic) NSDictionary *soundList;
+@property (strong, nonatomic) NSMutableDictionary *soundList;
 
 - (void) makeSound;
 

@@ -41,8 +41,12 @@
     
     self.fileLabel.text = nil;
     NSString *fileList = [[NSBundle mainBundle] pathForResource:@"sounds" ofType:@"plist"];
-    self.soundList = [[NSDictionary alloc] initWithContentsOfFile:fileList];
+    self.soundList = [NSDictionary dictionaryWithContentsOfFile:fileList];
+
 }
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -58,9 +62,10 @@
     NSUInteger index = arc4random_uniform(self.soundList.count);
     NSArray *keys = [soundList allKeys];
     NSString *key = [keys objectAtIndex:index];
-    self.fileLabel.text = [self.soundList objectForKey:key];
-    //NSString *fileName = [self.soundArray objectAtIndex:index];
-    NSString *randomSound = [[NSBundle mainBundle] pathForResource:key ofType:@".mp3"];
+    NSDictionary *actualDictionary = soundList[key];
+    NSString *fileName = [actualDictionary objectForKey:@"mp3"];
+    NSString *randomSound = [[NSBundle mainBundle] pathForResource:fileName ofType:@".mp3"];
+    self.fileLabel.text = [actualDictionary objectForKey:@"text"];
     
     player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:randomSound] error:NULL];
     [player play];
