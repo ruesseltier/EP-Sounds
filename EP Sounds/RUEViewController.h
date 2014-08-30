@@ -15,6 +15,7 @@
 @property (strong, nonatomic) NSArray *soundArray;
 @property (strong, nonatomic) AVAudioPlayer *player;
 @property (strong, nonatomic) NSMutableDictionary *soundList;
+@property (strong, nonatomic) IBOutlet UIImageView *personImage;
 
 - (void) makeSound;
 

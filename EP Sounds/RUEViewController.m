@@ -22,6 +22,7 @@
 @synthesize soundArray;
 @synthesize player;
 @synthesize soundList;
+@synthesize personImage;
 
 - (void)viewDidLoad
 {
@@ -66,6 +67,11 @@
     NSString *fileName = [actualDictionary objectForKey:@"mp3"];
     NSString *randomSound = [[NSBundle mainBundle] pathForResource:fileName ofType:@".mp3"];
     self.fileLabel.text = [actualDictionary objectForKey:@"text"];
+    
+    NSString *person = [actualDictionary objectForKey:@"person"];
+    //NSString *imagename =[[NSBundle mainBundle] pathForResource:person ofType:@".png"];
+    self.personImage.image = [UIImage imageNamed:person];
+    //self.personImage = [[UIImageView alloc] initWithImage:image];
     
     player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:randomSound] error:NULL];
     [player play];

@@ -26,7 +26,7 @@
                                     <constraint firstAttribute="height" constant="160" id="msc-Bi-xjw"/>
                                 </constraints>
                                 <string key="text">Was man aber auch dazu sagen muss, also äh Herr Bruchagen: Wer auch immer Ihnen morgens die Kleidung raus legt, den lilanen Puli, nicht mehr nehmen.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
@@ -41,6 +41,14 @@
                                     <segue destination="t6T-Ah-PN6" kind="modal" identifier="unwindToMain" id="WqL-eD-iu9"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dachs" translatesAutoresizingMaskIntoConstraints="NO" id="N6z-Tc-Po5">
+                                <rect key="frame" x="73" y="62" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CLc-WS-E0t">
+                                <rect key="frame" x="20" y="386" width="63" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.50196081399917603" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -55,6 +63,7 @@
                     <navigationItem key="navigationItem" id="oI5-cD-KNo"/>
                     <connections>
                         <outlet property="fileLabel" destination="G9X-GP-97l" id="ziF-Du-Co5"/>
+                        <outlet property="personImage" destination="CLc-WS-E0t" id="4cf-T2-pK2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -126,6 +135,7 @@ Wir freuen uns über einen Besuch.</string>
         </scene>
     </scenes>
     <resources>
+        <image name="Dachs" width="175" height="175"/>
         <image name="Pokal" width="26" height="25"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
